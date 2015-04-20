@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="appStylesArray">
+        <item>D.I.</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+    
+    <string-array name="appStylesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="usmWeb">
+        <item>Promocion Informatica</item>
+        <item>CAA Informatica</item>
+        <item>Departamento de Informatica</item>
+    </string-array>
+    
+    <string-array name="blockNumbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    
+    <string-array name="blockStart">
+        <item>08:00</item>
+        <item>08:45</item>
+        <item>09:45</item>
+        <item>10:30</item>
+        <item>11:30</item>
+        <item>12:15</item>
+        <item>14:00</item>
+        <item>14:45</item>
+        <item>15:40</item>
+        <item>16:25</item>
+        <item>17:20</item>
+        <item>18:05</item>
+        <item>19:00</item>
+        <item>19:45</item>
+    </string-array>
+    
+    <string-array name="blockEnd">
+        <item>08:45</item>
+        <item>09:30</item>
+        <item>10:30</item>
+        <item>11:15</item>
+        <item>12:15</item>
+        <item>13:00</item>
+        <item>14:45</item>
+        <item>15:30</item>
+        <item>16:25</item>
+        <item>17:10</item>
+        <item>18:05</item>
+        <item>18:50</item>
+        <item>19:45</item>
+        <item>20:30</item>
+    </string-array>
+    
+    <string-array name="alarmMinutes">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    
+    <string name="hora00">00:00</string>
+    <string name="hora01">01:00</string>
+    <string name="hora02">02:00</string>
+    <string name="hora03">03:00</string>
+    <string name="hora04">04:00</string>
+    <string name="hora05">05:00</string>
+    <string name="hora06">06:00</string>
+    <string name="hora07">07:00</string>
+    <string name="hora08">08:00</string>
+    <string name="hora09">09:00</string>
+    <string name="hora10">10:00</string>
+    <string name="hora11">11:00</string>
+    <string name="hora12">12:00</string>
+    <string name="hora13">13:00</string>
+    <string name="hora14">14:00</string>
+    <string name="hora15">15:00</string>
+    <string name="hora16">16:00</string>
+    <string name="hora17">17:00</string>
+    <string name="hora18">18:00</string>
+    <string name="hora19">19:00</string>
+    <string name="hora20">20:00</string>
+    <string name="hora21">21:00</string>
+    <string name="hora22">22:00</string>
+    <string name="hora23">23:00</string>
+    
+    <string name="bloque01">1</string>
+    <string name="bloque02">2</string>
+    <string name="bloque03">3</string>
+    <string name="bloque04">4</string>
+    <string name="bloque05">5</string>
+    <string name="bloque06">6</string>
+    <string name="bloque07">7</string>
+    <string name="bloque08">8</string>
+    <string name="bloque09">9</string>
+    <string name="bloque10">10</string>
+    <string name="bloque11">11</string>
+    <string name="bloque12">12</string>
+    <string name="bloque13">13</string>
+    <string name="bloque14">14</string>
+    
+    <string-array name="campus">
+        <item>Casa Central</item>
+        <item>Campus San Joaquin</item>
+        <item>Campus Vitacura</item>
+    </string-array>
+    
+    <string-array name="maps">
+        <item>Mapa Campus</item>
+        <item>Mapa Google</item>
+    </string-array>
+    
+</resources>

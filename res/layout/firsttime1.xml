@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="2dp" >
+    
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	    android:layout_margin="2dp"
+		android:text="@string/welcome"
+		android:textSize="18sp"
+		android:textColor="?pageSubTitle" />
+	
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="64dp" />
+	
+	<ImageView
+	    android:layout_width="160dp"
+	    android:layout_height="160dp"
+	    android:layout_gravity="center_horizontal"
+	    android:contentDescription="@string/app"
+	    android:src="@drawable/logo" />
+	
+</LinearLayout>

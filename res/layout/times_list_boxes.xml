@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical" >
+	
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+    
+    <TableLayout android:id="@+id/TimeListClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="1,3"
+        android:shrinkColumns="1,3"
+        style="?android:buttonStyle" >
+        
+        <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/timetableStart"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/TimeListStart"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		        android:layout_gravity="left|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/timetableDay"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/TimeListDay"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		        android:layout_gravity="left|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+        </TableRow>
+        
+        <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/timetableEnd"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/TimeListEnd"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		        android:layout_gravity="left|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/timetableRoom"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/TimeListRoom"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		        android:layout_gravity="left|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+        </TableRow>
+        
+        <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/timetableType"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/TimeListType"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		        android:layout_gravity="left|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/timetableSubject"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/TimeListSubject"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		        android:layout_gravity="left|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+        </TableRow>
+        
+    </TableLayout>
+	
+</LinearLayout>

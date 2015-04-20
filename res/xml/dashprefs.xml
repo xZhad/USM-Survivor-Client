@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory
+        android:title="@string/personalizationTitle" >
+	    
+	    <CheckBoxPreference
+	        android:key="splash"
+	        android:title="@string/isSplashEnabledTitle"
+	        android:summaryOn="@string/isSplashEnabledSummaryOn"
+	        android:summaryOff="@string/isSplashEnabledSummaryOff"
+	        android:defaultValue="true" />
+	    
+	    <ListPreference
+	        android:key="appStyle"
+	        android:title="@string/appStyleTitle"
+	        android:summary="@string/appStyleSummary"
+	        android:defaultValue="0"
+	        android:entries="@array/appStylesArray"
+	        android:entryValues="@array/appStylesValues" />
+	    
+    </PreferenceCategory>
+    
+</PreferenceScreen>

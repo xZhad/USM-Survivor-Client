@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--  BluetoothChat -->
+    <string name="horarioGrade">Guardar como:</string>
+    <string name="Bluetooh_name">Horarios Compartidos</string>
+    <string name="send">Send</string>
+    <string name="not_connected">No estas conectado con ningun dispositivo</string>
+    <string name="bt_not_enabled_leaving">Bluetooth no esta habilitado.</string>
+    <string name="title_connecting">conectando</string>
+    <string name="title_connected_to">conectado con: </string>
+    <string name="title_not_connected">no conecta</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">buscando dispositivos</string>
+    <string name="select_device">seleccione dispositivo a conectar</string>
+    <string name="none_paired">Los dispositivos no estan pareados</string>
+    <string name="none_found">dispositivo no funciona</string>
+    <string name="title_paired_devices">dispositivos pareados</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="button_scan">En busca de dispositivos</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Conectado al dispositivo</string>
+    <string name="discoverable">Hacerse visible</string>
+
+    <!-- basic -->
+    <string name="dummy">Dummy</string>
+    <string name="app_name">USM Survivor</string>
+    <string name="app">USM Survivor</string>
+    <string name="add">Agregar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="exit">Salir</string>
+    <string name="search_hint">Busca profesores</string>
+    
+    <!-- first -->
+    <string name="welcome">Bienvenido a USM Survivor, completa los siguientes pasos para comenzar a utilizar la aplicación</string>
+    <string name="approved">Si tienes ramos aprobados márcalos en la siguiente lista antes de continuar</string>
+    <string name="enroll">Marca las asignaturas que inscribiste este semestre</string>
+    <string name="register">Para finalizar ingresa tu usuario y contraseña de USM Survivor</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    
+    <!-- dash -->
+    <string name="universityLauncher">Actividades Universitarias</string>
+    <string name="personalLauncher">Actividades Personales</string>
+    <string name="timetableLauncher">Horario</string>
+    <string name="calendarLauncher">Calendario</string>
+    <string name="mapLauncher">Mapa Interactivo</string>
+    <string name="internetLauncher">Navegador Web</string>
+    <string name="scannerLauncher">Lector QR</string>
+    <string name="shareLauncher">Compartir</string>
+    <string name="optionsLauncher">Opciones</string>
+    
+    <!-- prefs -->
+    <string name="personalizationTitle">Personalización</string>
+    
+    <string name="isSplashEnabledTitle">Pantalla Inicial</string>
+    <string name="isSplashEnabledSummaryOn">Habilita la pantalla inicial al abrir la aplicación</string>
+    <string name="isSplashEnabledSummaryOff">Deshabilita la pantalla inicial al abrir la aplicación</string>
+    
+    <string name="appStyleTitle">Esquema de Colores</string>
+    <string name="appStyleSummary">Elige un esquema de colores para la aplicación</string>
+    
+    <!-- personal -->
+    <string name="personalOnlineAct">Actividades Online</string>
+    <string name="personalOnlineAddAct">Nueva Actividad Online</string>
+    <string name="personalOnlineShare">Compartir con:</string>
+    
+    <!-- subjects -->
+    <string name="subjectsList">Ramos inscritos:</string>
+    <string name="subjectTimetable">Horario</string>
+    <string name="subjectCalendar">Calendario</string>
+    <string name="subjectCalculator">Calculador de nota</string>
+    <string name="subjectFormula">Fórmula:</string>
+    <string name="subjectGradeParcial">Nota parcial:</string>
+    <string name="subjectGradeFinal">Nota final:</string>
+    
+    <!-- timetable -->
+    <string name="timetableSubject">Ramo:</string>
+    <string name="timetableType">Tipo:</string>
+    <string name="timetableTypeSelect">Seleeccione el tipo</string>
+    <string name="timetableDay">Día:</string>
+    <string name="timetableDaySelect">Seleccione el día</string>
+    <string name="timetableRoom">Lugar:</string>
+    <string name="timetableRoomSelect">Escriba la sala</string>
+    <string name="timetableTimeSelect">Seleccione el tipo de horario</string>
+    <string name="timetableStart">Inicio:</string>
+    <string name="timetableStartSelect">Seleccione el bloque de inicio</string>
+    <string name="timetableEnd">Fin:</string>
+    <string name="timetableEndSelect">Seleccione el bloque de término</string>
+    <string name="timetableHour">Elegir Hora</string>
+    <string name="timetableBlock">Elegir Bloque</string>
+    <string name="addTimetableInstruction">Completa los datos del nuevo bloque horario</string>
+    <string name="timetableHourName">Hora</string>
+    <string name="timetableBlockName">Bloque</string>
+    
+    <!-- calendar -->
+    <string name="calendarName">Nombre:</string>
+    <string name="calendarNameSelect">Escriba el Nombre de la Actividad:</string>
+    <string name="calendarSubject">Ramo:</string>
+    <string name="calendarType">Tipo:</string>
+    <string name="calendarTypeSelect">Seleeccione el tipo</string>
+    <string name="calendarPercent">Valor de la nota:</string>
+    <string name="calendarPercentSelect">Valor porcentual de la nota:</string>
+    <string name="calendarPercentShort">Valor:</string>
+    <string name="calendarGrade">Nota:</string>
+    <string name="calendarGradeSelect">Nota obtenida:</string>
+    <string name="calendarDate">Fecha:</string>
+    <string name="calendarDateSelect">Seleccione la fecha</string>
+    <string name="calendarRoom">Lugar:</string>
+    <string name="calendarRoomSelect">Escriba la sala</string>
+    <string name="calendarTimeSelect">Seleccione el tipo de horario</string>
+    <string name="calendarStart">Inicio:</string>
+    <string name="calendarStartSelect">Seleccione el bloque de inicio</string>
+    <string name="calendarEnd">Fin:</string>
+    <string name="calendarEndSelect">Seleccione el bloque de término</string>
+    <string name="calendarHour">Elegir Hora</string>
+    <string name="calendarBlock">Elegir Bloque</string>
+    <string name="calendarAlarm">Alarma:</string>
+    <string name="calendarAlarmSelect1">Activar alarma?</string>
+    <string name="calendarAlarmSelect2">Seleccione los minutos de anticipación de la alarma</string>
+    <string name="addCalendarInstruction">Completa los datos de la actividad</string>
+    
+</resources>

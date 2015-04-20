@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timetableBoxClick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:padding="5dp"
+    android:background="@drawable/roundcontainerazul" >
+	
+    <TextView android:id="@+id/timetableBoxStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="left"
+        android:text="@string/dummy"
+        android:textSize="12sp"
+        android:textColor="?pageTextAlt" />
+    
+    <TextView android:id="@+id/timetableBoxSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/dummy"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="?pageText" />
+    
+    <TextView android:id="@+id/timetableBoxType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/dummy"
+        android:textSize="14sp"
+        android:textColor="?pageText" />
+    
+    <TextView android:id="@+id/timetableBoxEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="right"
+        android:text="@string/dummy"
+        android:textSize="12sp"
+        android:textColor="?pageTextAlt" />
+    
+</FrameLayout>

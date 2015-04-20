@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical" >
+	
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+	
+    <TableLayout android:id="@+id/CalculatorClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="1,3"
+        android:shrinkColumns="1,3"
+        style="?android:buttonStyle" >
+        
+        <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="4"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/subjectFormula"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/CalculatorFormula"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="10"
+		        android:layout_gravity="left|center_vertical"
+		        android:gravity="right|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+        </TableRow>
+        
+        <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="4"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/subjectGradeParcial"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/CalculatorParcial"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="10"
+		        android:layout_gravity="left|center_vertical"
+		        android:gravity="right|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+        </TableRow>
+        
+        <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+            
+            <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="4"
+	            android:layout_gravity="left|center_vertical"
+	            android:textSize="12sp"
+	            android:text="@string/subjectGradeFinal"
+	            android:textColor="?pageText" />
+            
+            <TextView android:id="@+id/CalculatorFinal"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="10"
+		        android:layout_gravity="left|center_vertical"
+		        android:gravity="right|center_vertical"
+	            android:text="@string/dummy"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="?pageText" />
+            
+        </TableRow>
+        
+    </TableLayout>
+	
+</LinearLayout>

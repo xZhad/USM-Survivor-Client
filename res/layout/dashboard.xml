@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?pageBackground" >
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="top"
+        android:background="?pageBar" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text="@string/app"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?pageTitle" />
+        
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        android:padding="10dp" >
+        
+		<Button android:id="@+id/LaunchUniversity"
+            android:onClick="launchUniversity"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/universityLauncher" />
+		
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="10dp" />
+		
+		<Button android:id="@+id/LaunchPersonal"
+            android:onClick="launchPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/personalLauncher" />
+		
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="10dp" />
+		
+		<Button android:id="@+id/LaunchTimeTable"
+            android:onClick="launchTimeTable"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/timetableLauncher" />
+        
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="10dp" />
+		
+		<Button android:id="@+id/LaunchCalendar"
+            android:onClick="launchCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/calendarLauncher" />
+		
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="10dp" />
+        
+		<Button android:id="@+id/LaunchMap"
+            android:onClick="launchMap"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/mapLauncher" />
+		
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="10dp" />
+        
+		<Button android:id="@+id/LaunchInternet"
+            android:onClick="launchInternet"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/internetLauncher" />
+        
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="10dp" />
+		
+		<Button android:id="@+id/LaunchScanner"
+            android:onClick="launchScanner"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/scannerLauncher" />
+		
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="10dp" />
+        
+		<Button android:id="@+id/LaunchShare"
+            android:onClick="launchShare"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/shareLauncher" />
+		
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="10dp" />
+        
+		<Button android:id="@+id/LaunchOptions"
+            android:onClick="launchOptions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/optionsLauncher" />
+        
+    </LinearLayout>
+    
+    <FrameLayout android:id="@+id/DashWorking"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:visibility="gone"
+	    android:background="@color/darken" >
+        
+        <ProgressBar
+            android:indeterminate="true"
+            android:indeterminateOnly="true"
+            android:layout_marginTop="96dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal" />
+        
+    </FrameLayout>
+    
+</FrameLayout>

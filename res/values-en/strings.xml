@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--  BluetoothChat -->
+    <string name="horarioGrade">Save as:</string>
+    <string name="Bluetooh_name">Horarios Compartidos</string>
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled.</string>
+    <string name="title_connecting">connecting</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!-- basic -->
+    <string name="dummy">Dummy</string>
+    <string name="app_name">USM Survivor</string>
+    <string name="app">USM Survivor</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="exit">Exit</string>
+    <string name="search_hint">Search teachers</string>
+    
+    <!-- first -->
+    <string name="welcome">Welcome to USM Survivor, follow the next steps to start using this app</string>
+    <string name="approved">If you have approved subjects check them in this list before you continue</string>
+    <string name="enroll">Check the subjects you enrolled this semester</string>
+    <string name="register">To end this first time guide, fill your user and password for USM Survivor</string>
+    <string name="user">User</string>
+    <string name="pass">Password</string>
+    
+    <!-- dash -->
+    <string name="scannerLauncher">QR Scanner</string>
+    <string name="mapLauncher">Map</string>
+    <string name="calendarLauncher">Calendar</string>
+    <string name="timetableLauncher">Time Table</string>
+    <string name="subjectsLauncher">Subjects</string>
+    <string name="internetLauncher">Web</string>
+    
+    <!-- prefs -->
+    <string name="personalizationTitle">Personalization</string>
+    
+    <string name="isSplashEnabledTitle">Splash Screen</string>
+    <string name="isSplashEnabledSummaryOn">Enable the splash screen on application startup</string>
+    <string name="isSplashEnabledSummaryOff">Disable the splash screen on application startup</string>
+    
+    <string name="appStyleTitle">Theme</string>
+    <string name="appStyleSummary">Choose a theme for the application</string>
+    
+    <!-- personal -->
+    <string name="personalOnlineAct">Online Activities</string>
+    <string name="personalOnlineAddAct">New Online Activity</string>
+    <string name="personalOnlineShare">Share with:</string>
+    
+    <!-- subjects -->
+    <string name="subjectsList">Enrolled subjects:</string>
+    <string name="subjectTimetable">Timetable</string>
+    <string name="subjectCalendar">Calendar</string>
+    <string name="subjectCalculator">Grade Calculator</string>
+    <string name="subjectFormula">Formula:</string>
+    <string name="subjectGradeParcial">Parcial grade:</string>
+    <string name="subjectGradeFinal">Final grade:</string>
+    
+    <!-- timetable -->
+    <string name="timetableSubject">Subject:</string>
+    <string name="timetableType">Type:</string>
+    <string name="timetableTypeSelect">Select the type</string>
+    <string name="timetableDay">Day:</string>
+    <string name="timetableDaySelect">Select the day</string>
+    <string name="timetableRoom">Place:</string>
+    <string name="timetableRoomSelect">Write the classroom</string>
+    <string name="timetableTimeSelect">Select the block time type</string>
+    <string name="timetableStart">Start:</string>
+    <string name="timetableStartSelect">Select the start block</string>
+    <string name="timetableEnd">End:</string>
+    <string name="timetableEndSelect">Select the end block</string>
+    <string name="timetableHour">Select Hour</string>
+    <string name="timetableBlock">Select Block</string>
+    <string name="addTimetableInstruction">Fill the data for the new hour block</string>
+    <string name="timetableHourName">Hour</string>
+    <string name="timetableBlockName">Block</string>
+    
+    <!-- calendar -->
+    <string name="calendarName">Name:</string>
+    <string name="calendarNameSelect">Write the name of the Activity:</string>
+    <string name="calendarSubject">Subject:</string>
+    <string name="calendarType">Type:</string>
+    <string name="calendarTypeSelect">Select the type</string>
+    <string name="calendarPercent">Grade Value:</string>
+    <string name="calendarPercentSelect">Grade percentage value</string>
+    <string name="calendarPercentShort">Value:</string>
+    <string name="calendarGrade">Grade:</string>
+    <string name="calendarGradeSelect">Grade obtained:</string>
+    <string name="calendarDate">Date:</string>
+    <string name="calendarDateSelect">Select the date</string>
+    <string name="calendarRoom">Place:</string>
+    <string name="calendarRoomSelect">Write the classroom</string>
+    <string name="calendarTimeSelect">Select the block time type</string>
+    <string name="calendarStart">Start:</string>
+    <string name="calendarStartSelect">Select the start block</string>
+    <string name="calendarEnd">End:</string>
+    <string name="calendarEndSelect">Select the end block</string>
+    <string name="calendarHour">Select Hour</string>
+    <string name="calendarBlock">Select Block</string>
+    <string name="calendarAlarm">Alarm:</string>
+    <string name="calendarAlarmSelect1">Activate the alarm?</string>
+    <string name="calendarAlarmSelect2">Select the minutes before the activity for the alarm to start</string>
+    <string name="addCalendarInstruction">Fill the data of the activity</string>
+    
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="pageTitle" format="color" />
+    <attr name="pageSubTitle" format="color" />
+    <attr name="pageText" format="color" />
+    <attr name="pageTextAlt" format="color" />
+    <attr name="pageBar" format="color" />
+    <attr name="pageBackground" format="color" />
+    <attr name="color_enable" format="color" />
+    <attr name="color_focus" format="color" />
+    <attr name="color_disable" format="color" />
+    <attr name="drawable_enable" format="reference" />
+    <attr name="drawable_focus" format="reference" />
+    <attr name="drawable_disable" format="reference" />
+</resources>

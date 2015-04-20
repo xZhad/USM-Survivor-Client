@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="cl.edenprime.survivor"
+	android:versionCode="1"
+	android:versionName="1.0" >
+
+	<uses-sdk android:minSdkVersion="8"
+		android:targetSdkVersion="16" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.FLASHLIGHT" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  	<uses-permission android:name="android.permission.CALL_PHONE" />
+  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+	
+
+	<application
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app"
+		android:theme="@android:style/Theme.NoTitleBar">
+		
+	    <uses-library android:name="com.google.android.maps" />
+	    
+        <receiver android:name=".AppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/app_widget_provider" />
+        </receiver>
+        
+        <activity android:name=".ClickOneActivity1">
+			<intent-filter>
+				<action android:name="cl.edenprime.survivor.widget.ButtonWidget.ACTION_WIDGET_CONFIGURE"/>
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".ClickOneActivity2">
+			<intent-filter>
+				<action android:name="cl.edenprime.survivor.widget.ButtonWidget.ACTION_WIDGET_CONFIGURE"/>
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".ClickOneActivity3">
+			<intent-filter>
+				<action android:name="cl.edenprime.survivor.widget.ButtonWidget.ACTION_WIDGET_CONFIGURE"/>
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".SearchableActivity" >
+	        <intent-filter>
+	            <action android:name="android.intent.action.SEARCH" />
+	        </intent-filter>
+	        <meta-data android:name="android.app.searchable"
+	                   android:resource="@xml/searchable" />
+	    </activity>
+		
+		<activity
+			android:name=".SplashActivity"
+			android:screenOrientation="portrait"
+			android:clearTaskOnLaunch="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+			android:name=".FirstTimeActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".DashActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+			<meta-data android:name="android.app.default_searchable"
+                   android:value=".SearchableActivity" />
+		</activity>
+		
+		<activity
+			android:name=".DashPreferences"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".SubjectsActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".ViewPersonalActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".ViewSubjectActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".AddTimetableActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".AddCalendarActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".AddCalendarOnlineActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".ScannerActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".WebActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".TimeActivity"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".TimeActivityExtern"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".CalendarActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".WebMapActivity"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity android:name=".BluetoothChat"
+		    android:screenOrientation="portrait"
+		    android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity
+			android:name=".TimeActivityCombined"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+		<activity android:name=".DeviceListActivity"
+			android:theme="@android:style/Theme.Dialog"
+			android:screenOrientation="portrait"
+			android:finishOnTaskLaunch="true">
+		</activity>
+		
+	</application>
+
+</manifest>

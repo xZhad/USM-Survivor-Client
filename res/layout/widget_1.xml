@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="180dp"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+	
+    <LinearLayout android:id="@+id/WidgetClick1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@drawable/shelf" >
+		
+        <TextView
+            android:id="@+id/WidgetSigla1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/naranjoDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+		
+        <TextView
+            android:id="@+id/WidgetTipo1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/azulDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/WidgetFecha1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/verdeDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+		
+    </LinearLayout>
+	
+    <LinearLayout android:id="@+id/WidgetClick2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@drawable/shelf" >
+
+        <TextView
+            android:id="@+id/WidgetSigla2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/naranjoDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/WidgetTipo2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/azulDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/WidgetFecha2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/verdeDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/WidgetClick3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@drawable/shelf" >
+
+        <TextView
+            android:id="@+id/WidgetSigla3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/naranjoDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/WidgetTipo3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/azulDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/WidgetFecha3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/verdeDARK"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+</LinearLayout>

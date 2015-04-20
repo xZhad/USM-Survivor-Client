@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?pageBackground" >
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="top"
+        android:background="?pageBar" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text="@string/universityLauncher"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?pageTitle" />
+        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="?pageBar" >
+        
+        <Button android:id="@+id/SubjectsEdit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/buttonadd"
+            android:onClick="goEdit" />
+        
+    </FrameLayout>
+    
+    <FrameLayout android:id="@+id/SubjectsLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:layout_gravity="center_vertical"
+        android:padding="2dp" >
+        
+    </FrameLayout>
+    
+</FrameLayout>

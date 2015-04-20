@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="YesNo">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    
+    <string-array name="days_array">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    
+    <string name="Monday">Mon</string>
+    <string name="Tuesday">Tue</string>
+    <string name="Wednesday">Wed</string>
+    <string name="Thursday">Thu</string>
+    <string name="Friday">Fri</string>
+    <string name="Saturday">Sat</string>
+    <string name="Sunday">Sun</string>
+    
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    
+    <string-array name="timetable_type_array">
+        <item>Lecture</item>
+        <item>Assistantship</item>
+        <item>Lab</item>
+        <item>Workshop</item>
+        <item>Other</item>
+    </string-array>
+    
+    <string-array name="calendar_type_array">
+        <item>Exam</item>
+        <item>Test</item>
+        <item>Homework</item>
+        <item>Presentation</item>
+        <item>Other</item>
+    </string-array>
+    
+    <string-array name="time_type_array">
+        <item>Hour</item>
+        <item>Block</item>
+    </string-array>
+    
+    <string-array name="online_action_array">
+        <item>Edit</item>
+        <item>Share</item>
+    </string-array>
+    
+    <string-array name="bluetoothOption">
+        <item>Search devices</item>
+        <item>Make me visible</item>
+    </string-array>
+    
+    <string-array name="timetableOption">
+        <item>Timetable</item>
+        <item>Combine timetables</item>
+    </string-array>
+    
+</resources>

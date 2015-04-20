@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?pageBackground">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="top"
+        android:background="?pageBar" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text="@string/Bluetooh_name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?pageTitle" />
+        
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:scrollbars="none"
+        android:orientation="vertical">
+	    <ListView android:id="@+id/inBT"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:stackFromBottom="true"
+	        android:transcriptMode="alwaysScroll"/>
+	    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="?pageBar">
+        
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ic_menu_week_pressed"
+            android:onClick="launchTimeTable"/>
+        
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/ic_menu_scan_bluetooth"
+            android:onClick="BluetoothOpt"/>
+        
+        <Button android:id="@+id/button_send"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ic_menu_send"/>
+    </FrameLayout>
+    
+</FrameLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0" >
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="top"
+        android:background="?pageBar" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text="@string/app"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?pageTitle" />
+        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="?pageBar" >
+        
+        <Button android:id="@+id/FirstBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/buttonback"
+            android:onClick="goBack" />
+        
+        <Button android:id="@+id/FirstNext"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/buttonnext"
+            android:onClick="goNext" />
+        
+    </FrameLayout>
+    
+    <FrameLayout android:id="@+id/FirstLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:padding="2dp" >
+        
+    </FrameLayout>
+    
+    <FrameLayout android:id="@+id/FirstWorking"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:visibility="gone"
+	    android:background="@color/darken" >
+        
+        <ProgressBar
+            android:indeterminate="true"
+            android:indeterminateOnly="true"
+            android:layout_marginTop="96dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal" />
+        
+    </FrameLayout>
+    
+</FrameLayout>

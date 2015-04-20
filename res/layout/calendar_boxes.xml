@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:layout_gravity="top"
+    android:orientation="vertical" >
+    
+	<FrameLayout
+	    android:id="@+id/calendarBoxClick"
+	    android:layout_width="match_parent"
+	    android:layout_height="64dp"
+	    android:layout_gravity="top"
+	    android:background="@drawable/button_di" >
+	    
+	    <TextView android:id="@+id/calendarBoxAlert"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginBottom="8dp"
+	        android:gravity="center_horizontal"
+	        android:textSize="14sp"
+	        android:textColor="?pageTextAlt" />
+	    
+	    <TextView android:id="@+id/calendarBoxDay"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginTop="8dp"
+	        android:gravity="center_horizontal"
+	        android:textSize="18sp"
+	        android:textStyle="bold"
+	        android:textColor="?pageText" />
+	    
+	    <TextView android:id="@+id/calendarBoxDayActivity"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginTop="8dp"
+	        android:gravity="center_horizontal"
+	        android:textSize="18sp"
+	        android:textStyle="bold"
+	        android:textColor="?pageTextAlt"
+	        android:visibility="gone" />
+	    
+	</FrameLayout>
+	
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="4dp" />
+	
+</LinearLayout>

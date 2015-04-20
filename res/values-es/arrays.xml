@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="YesNo">
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+    
+    <string-array name="days_array">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    
+    <string name="Monday">Lun</string>
+    <string name="Tuesday">Mar</string>
+    <string name="Wednesday">Mié</string>
+    <string name="Thursday">Jue</string>
+    <string name="Friday">Vie</string>
+    <string name="Saturday">Sáb</string>
+    <string name="Sunday">Dom</string>
+    
+    <string-array name="month_array">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    
+    <string-array name="timetable_type_array">
+        <item>Cátedra</item>
+        <item>Ayudantía</item>
+        <item>Laboratorio</item>
+        <item>Taller</item>
+        <item>Otro</item>
+    </string-array>
+    
+    <string-array name="calendar_type_array">
+        <item>Certámen</item>
+        <item>Control</item>
+        <item>Tarea</item>
+        <item>Presentación</item>
+        <item>Otro</item>
+    </string-array>
+    
+    <string-array name="time_type_array">
+        <item>Hora</item>
+        <item>Bloque</item>
+    </string-array>
+    
+    <string-array name="online_action_array">
+        <item>Editar</item>
+        <item>Compartir</item>
+    </string-array>
+    
+    <string-array name="bluetoothOption">
+        <item>Buscar dispositivos</item>
+        <item>Dejar dispositivo visible</item>
+    </string-array>
+    
+    <string-array name="timetableOption">
+        <item>Horario</item>
+        <item>Cruce de horarios</item>
+    </string-array>
+    
+</resources>

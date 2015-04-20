@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<!-- LIGHT -->
+    <style name="styleLIGHT" parent="android:Theme.NoTitleBar">
+        <item name="pageTitle">@color/casinegro</item>
+        <item name="pageSubTitle">@color/naranjo</item>
+        <item name="pageText">@color/casinegro</item>
+        <item name="pageTextAlt">@color/casiblanco</item>
+        <item name="pageBar">@color/naranjoLIGHT</item>
+        <item name="pageBackground">@color/blanco</item>
+        <item name="color_enable">@color/naranjoLIGHT</item>
+        <item name="color_focus">@color/azulLIGHT</item>
+        <item name="color_disable">@color/grisLIGHT</item>
+        <item name="android:buttonStyle">@style/LightButton</item>
+    </style>
+    
+    <style name="LightButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/light_square_button</item>
+    </style>
+    
+    <!-- DARK -->
+    <style name="styleDARK" parent="android:Theme.NoTitleBar">
+        <item name="pageTitle">@color/casiblanco</item>
+        <item name="pageSubTitle">@color/azulLIGHT</item>
+        <item name="pageText">@color/casiblanco</item>
+        <item name="pageTextAlt">@color/casinegro</item>
+        <item name="pageBar">@color/azulDARK</item>
+        <item name="pageBackground">@color/casinegro</item>
+        <item name="color_enable">@color/naranjoLIGHT</item>
+        <item name="color_focus">@color/azulLIGHT</item>
+        <item name="color_disable">@color/grisLIGHT</item>
+        <item name="android:buttonStyle">@style/DarkButton</item>
+    </style>
+    
+    <style name="DarkButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/dark_square_button</item>
+    </style>
+    
+    <!-- DI -->
+    <style name="styleDI" parent="android:Theme.NoTitleBar">
+        <item name="pageTitle">@color/casinegro</item>
+        <item name="pageSubTitle">@color/naranjoDI</item>
+        <item name="pageText">@color/casiblanco</item>
+        <item name="pageTextAlt">@color/casiblanco</item>
+        <item name="pageBar">@color/naranjoDI</item>
+        <item name="pageBackground">@color/casinegro</item>
+        <item name="color_enable">@color/grisDI</item>
+        <item name="color_focus">@color/naranjoDI</item>
+        <item name="color_disable">@color/casinegro</item>
+        <item name="android:buttonStyle">@style/DIButton</item>
+    </style>
+    
+    <style name="DIButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/casiblanco</item>
+        <item name="android:background">@drawable/button_di</item>
+    </style>
+    
+</resources>
